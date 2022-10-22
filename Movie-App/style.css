@@ -17,7 +17,7 @@ header {
 
 .search {
     font-family: inherit;
-    border: 3px solid rgb(12, 54, 54);
+    border: 2px solid rgb(12, 54, 54);
     padding: 0.5rem 1rem;
     border-radius: 3px;
     background-color: transparent;
@@ -71,6 +71,8 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 .movie-info span.green {
