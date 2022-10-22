@@ -1,0 +1,14 @@
+
+<%- include("header") -%>
+
+<h1>Home</h1>
+<p><%= startingcontent%></p>
+
+<% for(var i=0;i< newInput.length;i++){ %>
+    <h1><%= newInput[i].inputtitle %></h1>
+    <p><%= newInput[i].inputpost.substring(0, 100) %>...<a href= "/posts/<%=newInput[i].inputtitle%>">HOME</a></p>
+    <% }  %>
+
+
+
+<%- include("footer") -%>
