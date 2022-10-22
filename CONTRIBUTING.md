@@ -68,6 +68,6 @@ git push -u origin <your_branch_name>
  
 ## ❤️ Project Admin
 
-|                                     <a href="https://github.com/anjali1102"><img src="https://media-exp1.licdn.com/dms/image/C5603AQFKL2C1zYA7aQ/profile-displayphoto-shrink_800_800/0/1623232761747?e=1640217600&v=beta&t=eJVuLrPhxKHOuFPDGsweMgsuVMc2WTAfc1d2sB2H7z8" width=150px height=150px /></a>                                      |
+|                                     <a href="https://github.com/anjali1102"><img src="https://pbs.twimg.com/profile_images/1512359113472483331/s91EWJGj_400x400.jpg" width=150px height=150px /></a>                                      |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                      **[Anjali Chauhan](https://www.linkedin.com/in/anjali1102/)**                                                                                    |
