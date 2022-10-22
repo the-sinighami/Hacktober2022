@@ -1,61 +1,97 @@
 *,
 *:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    height: 100vh;
-    background: linear-gradient(
-        135deg,
-        #8052ec,
-        #d161ff
-    );
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #b1afb6, #350303);
 }
 
-#title{
-    color:white;
-    font-family: 'Open Sans',sans-serif;
-    text-align: center;
-    font-size: 60px;
-    margin-top: 20px;
+#title {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(214, 206, 223),
+    steelblue,
+    turquoise
+  );
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.clock{
-    width: 550px;
-    height: 150px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.clock {
+  width: 550px;
+  height: 150px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.clock div{
-    position: relative;
-    background-color: #ffffff;
-    height: 100%;
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 60px;
-    color: #202020;
-    border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-    letter-spacing: 3px;
+.date {
+  width: 550px;
+  height: 150px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.clock span{
-    font-weight: bolder;
-    font-size: 60px;
-    color: #ffffff;
+.date div {
+  position: relative;
+  background-color: #ffffff;
+  height: 100%;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  color: #202020;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  letter-spacing: 3px;
+}
+.date span {
+  font-weight: bolder;
+  font-size: 60px;
+  color: #ffffff;
+}
+.clock div {
+  position: relative;
+  background-color: #ffffff;
+  height: 100%;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  color: #202020;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  letter-spacing: 3px;
+}
+.clock span {
+  font-weight: bolder;
+  font-size: 60px;
+  color: #ffffff;
 }
 
-@media only screen and (max-width : 600px) {
-    .clock{
-        width: 100%;
-        padding: 10px;
-    }
+@media only screen and (max-width: 600px) {
+  .clock {
+    width: 100%;
+    padding: 10px;
+  }
 }
