@@ -2,178 +2,320 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bhavya Fitness</title>
-    <!-- add image on title -->
-    <link rel="icon" type="third_image/png" href="third_image.png"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Tea Station</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- add image on title -->
+  <link rel="icon" type="title_image/png" href="./images/title_image.png" />
 </head>
-<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<style>
-    /* CSS Reset */
-    body {
-        font-family: 'Baloo Bhai', cursive;
-        color: white;
-        margin: 0px;
-        padding: 0px;
-        background: url('img/first_image.jpg');
-        /* background-repeat: no-repeat; */
-        /* background-size: cover; */
-    }
-
-    .left {
-        display: inline-block;
-        /* border: 2px solid red; */
-        position: absolute;
-        left: 60px;
-        top: 20px;
-    }
-
-    .left img {
-        width: 136px;
-        filter: invert(100%);
-    }
-
-    .left div {
-        line-height: 19px;
-        font-size: 26px;
-        text-align: center;
-    }
-
-    .mid {
-        display: block;
-        width: 55%;
-        margin: 29px auto;
-        /* border: 2px solid green; */
-    }
-
-    .right {
-        position: absolute;
-        right: 34px;
-        top: 43px;
-        display: inline-block;
-        /* border: 2px solid yellow; */
-    }
-
-    .navbar {
-        display: inline-block;
-    }
-
-    .navbar li {
-        display: inline-block;
-        font-size: 25px;
-    }
-
-    .navbar li a {
-        color: white;
-        text-decoration: none;
-        padding: 34px 23px;
-
-    }
-
-    .navbar li a:hover,
-    .navbar li a.active {
-        text-decoration: underline;
-        color: grey;
-
-    }
-
-    .btn {
-        font-family: 'Baloo Bhai', cursive;
-        margin: 0px 9px;
-        background-color: black;
-        color: white;
-        padding: 4px 14px;
-        border: 2px solid grey;
-        border-radius: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    .btn:hover {
-        background-color: rgb(31, 30, 30);
-    }
-
-    .container {
-        border: 2px solid white;
-        margin: 106px 80px;
-        padding: 75px;
-        width: 33%;
-        border-radius: 28px;
-    }
-
-    .form-group input {
-        font-family: 'Baloo Bhai', cursive;
-        text-align: center;
-        display: block;
-        width: 508px;
-        padding: 1px;
-        border: 2px solid black;
-        margin: 11px auto;
-        font-size: 25px;
-        border-radius: 8px;
-    }
-
-    .container h1 {
-        text-align: center;
-    }
-
-    .container button {
-        display: block;
-        width: 74%;
-        margin: 20px auto;
-    }
-</style>
 
 <body>
-    <header class="header">
-        <!-- Left box for logo -->
-        <div class="left">
-            <img src="img/second_image.jpg" alt="">
-            <div>Bhavya Fitness</div>
-        </div>
-        <!-- Mid box for navbar -->
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Fitness Calculator</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-
-        <!-- Right box for buttons -->
-        <div class="right">
-            <button class="btn">Call Us Now</button>
-            <button class="btn">Email Us</button>
-        </div>
-    </header>
-    <div class="container">
-        <h1>Join the best gym of Delhi now</h1>
-        <form action="noaction.php">
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Name">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Age">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Gender">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Locality">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Email Id">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Phone Number">
-            </div>
-            <button class="btn">Submit</button>
-        </form>
+  <!-- nav button -->
+  <span class="nav-btn" id="nav-btn">
+    <i class="fas fa-bars"></i>
+  </span>
+  <!-- navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-header">
+      <span class="nav-close" id="nav-close">
+        <i class="fas fa-times"></i>
+      </span>
     </div>
+    <ul class="nav-items">
+      <li><a href="index.html" class="nav-link">home</a></li>
+      <li><a href="skills.html" class="nav-link">skills</a></li>
+      <li><a href="about.html" class="nav-link">about</a></li>
+      <li><a href="products.html" class="nav-link">products</a></li>
+    </ul>
+  </nav>
+  <!-- header -->
+  <header class="header">
+    <div class="banner">
+      <h3 class="banner-subtitle">Over one hundred flavors of tea</h3>
+      <h1 class="banner-title">specially crafted tea</h1>
+      <a href="skills.html" class="banner-btn">explore</a>
+    </div>
+  </header>
+  <!-- end header -->
+  <!-- content divider -->
+  <div class="content-divider"></div>
+  <!-- end content divider  -->
+  <!-- skills section -->
+  <section class="skills clearfix">
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-mug-hot"></i>
+      </span>
+      <h3 class="skill-title">made in us</h3>
+      <p class="skill-text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+        porro.
+      </p>
+    </article>
+    <!--end single skill -->
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-glass-cheers"></i>
+      </span>
+      <h3 class="skill-title">relaxation</h3>
+      <p class="skill-text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+        porro.
+      </p>
+    </article>
+    <!--end single skill -->
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-bomb"></i>
+      </span>
+      <h3 class="skill-title">energy</h3>
+      <p class="skill-text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+        porro.
+      </p>
+    </article>
+    <!--end single skill -->
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-mortar-pestle"></i>
+      </span>
+      <h3 class="skill-title">family recipe</h3>
+      <p class="skill-text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+        porro.
+      </p>
+    </article>
+    <!--end single skill -->
+  </section>
+  <!-- end of skills section -->
+  <!-- about  -->
+  <section class="about">
+    <div class="section-center clearfix">
+      <!-- first column -->
+      <article class="about-img">
+        <div class="about-picture-container">
+          <img src="./images/about-bcg.jpeg" alt="tea kettle" class="about-picture" />
+        </div>
+      </article>
+      <!-- second column -->
+      <article class="about-info">
+        <!-- section title -->
+        <div>
+          <h3 class="section-subtitle">about our</h3>
+          <h2 class="section-title">tea station</h2>
+        </div>
+        <!--end section title -->
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+          dolores.
+        </p>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+          dolores.
+        </p>
+        <a href="about.html" class="main-btn">learn more</a>
+      </article>
+    </div>
+  </section>
+  <!--  end of about  -->
+  <!-- products -->
+  <section class="products">
+    <div class="section-center clearfix">
+      <!-- product info -->
+      <article class="products-info">
+        <!-- section title -->
+        <div>
+          <h3 class="section-subtitle">check out</h3>
+          <h2 class="section-title text-white">our products</h2>
+        </div>
+        <!--end section title -->
+        <p class="product-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+          quisquam sint nemo earum velit eaque sit voluptatibus odit iste
+          tempora.
+        </p>
+        <a href="products.html" class="main-btn">inventory</a>
+      </article>
+      <!-- product inventory -->
+      <article class="products-inventory clearfix">
+        <!-- single product -->
+        <article class="product">
+          <img src="./images/product-1.jpeg" alt="product" class="product-img" />
+          <h3 class="product-title">product title</h3>
+          <h3 class="product-price">$6.99</h3>
+        </article>
+        <!-- end single product -->
+        <!-- single product -->
+        <article class="product">
+          <img src="./images/product-2.jpeg" alt="product" class="product-img" />
+          <h3 class="product-title">product title</h3>
+          <h3 class="product-price">$6.99</h3>
+        </article>
+        <!-- end single product -->
+        <!-- single product -->
+        <article class="product">
+          <img src="./images/product-3.jpeg" alt="product" class="product-img" />
+          <h3 class="product-title">product title</h3>
+          <h3 class="product-price">$6.99</h3>
+        </article>
+        <!-- end single product -->
+      </article>
+    </div>
+  </section>
+  <!-- end products -->
+  <!-- services -->
+  <section class="services">
+    <!-- section title -->
+    <div class="services-title text-center">
+      <h3 class="section-subtitle">explore</h3>
+      <h2 class="section-title ">our services</h2>
+    </div>
+    <!--end section title -->
+    <div class="section-center clearfix">
+      <!-- single card -->
+      <article class="service-card">
+        <!-- img container -->
+        <div class="service-img-container">
+          <!-- img -->
+          <img src="./images/product-1.jpeg" class="service-img" alt="single service" />
+          <!-- service icon -->
+          <span class="service-icon">
+            <i class="fas fa-mortar-pestle fa-fw"></i>
+          </span>
+        </div>
+        <!-- service info -->
+        <div class="service-info">
+          <h4>custom recipes</h4>
+          <h4>service</h4>
+          <button type="button" class="service-btn">read more</button>
+        </div>
+      </article>
+      <!-- end of single card -->
+      <!-- single card -->
+      <article class="service-card">
+        <!-- img container -->
+        <div class="service-img-container">
+          <!-- img -->
+          <img src="./images/product-2.jpeg" class="service-img" alt="single service" />
+          <!-- service icon -->
+          <span class="service-icon">
+            <i class="fas fa-home fa-fw"></i>
+          </span>
+        </div>
+        <!-- service info -->
+        <div class="service-info">
+          <h4>home delivery</h4>
+          <h4>service</h4>
+          <button type="button" class="service-btn">read more</button>
+        </div>
+      </article>
+      <!-- end of single card -->
+      <!-- single card -->
+      <article class="service-card">
+        <!-- img container -->
+        <div class="service-img-container">
+          <!-- img -->
+          <img src="./images/product-3.jpeg" class="service-img" alt="single service" />
+          <!-- service icon -->
+          <span class="service-icon">
+            <i class="fas fa-mug-hot fa-fw"></i>
+          </span>
+        </div>
+        <!-- service info -->
+        <div class="service-info">
+          <h4>tea aging</h4>
+          <h4>service</h4>
+          <button type="button" class="service-btn">read more</button>
+        </div>
+      </article>
+      <!-- end of single card -->
+    </div>
+  </section>
+  <!-- end of services -->
+  <!-- contact -->
+  <section class="contact">
+    <div class="section-center clearfix">
+      <!-- contact info -->
+      <article class="contact-info">
+        <!-- contact item -->
+        <div class="contact-item">
+          <h3 class="contact-title">
+            <span class="contact-icon"><i class="fas fa-location-arrow"></i></span>address
+          </h3>
+          <h3 class="contact-text">
+            153A EAST AZAD NAGAR STREET NO.4  DELHI-110051  INDIA
+          </h3>
+        </div>
+        <!--end of  contact item -->
+        <!-- contact item -->
+        <div class="contact-item">
+          <h3 class="contact-title">
+            <span class="contact-icon"><i class="fas fa-envelope"></i></span>email
+          </h3>
+          <h3 class="contact-text">
+            email@email.com
+          </h3>
+        </div>
+        <!--end of  contact item -->
+        <!-- contact item -->
+        <div class="contact-item">
+          <h3 class="contact-title">
+            <span class="contact-icon"><i class="fas fa-phone"></i></span>phone
+          </h3>
+          <h3 class="contact-text">
+            + 9711140165
+          </h3>
+        </div>
+        <!--end of  contact item -->
+      </article>
+      <!-- contact form -->
+      <article class="contact-form">
+        <form action="https://formspree.io/bhavyaaggarwal278@gmail.com" method="POST" class="form-group">
+          <input type="text" name="name" placeholder="name" class="form-control" />
+          <input type="email" name="email" placeholder="email" class="form-control" />
+          <textarea name="message" rows="5" class="form-control" placeholder="message"></textarea>
+          <button type="submit" class="main-btn">send</button>
+        </form>
+      </article>
+    </div>
+  </section>
+  <!-- end of contact -->
+  <footer class="footer">
+    <div class="section-center">
+      <div class="social-icons">
+        <!-- social icon -->
+        <a href="https://www.facebook.com/bhavya.aggarwal.3363/" class="social-icon" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <!-- end of social icon -->
+        <!-- social icon -->
+        <a href="https://github.com/bhavya278" class="social-icon" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <!-- end of social icon -->
+        <!-- social icon -->
+        <a href="https://www.instagram.com/_bhavya.aggarwal_/" class="social-icon" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- end of social icon -->
+      </div>
+      <p class="footer-text">
+        &copy; <span class="text-primary">tea station</span>. all rights
+        reserved
+      </p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>
