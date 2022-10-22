@@ -1,3 +1,3 @@
-#### IN ACTION
+#### Values JS
 
-[Portfolio](https://gatsby-strapi-portfolio-project.netlify.app/)
+[values.js](https://github.com/noeldelgado/values.js)
