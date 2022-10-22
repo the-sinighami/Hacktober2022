@@ -1,3 +1,4 @@
+
 # Welcome To Hacktober 2022 👋
 
 **Devkit** is a open source project which contains different code of frontend Projects with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend. _You can submit your projects or raise/claim issues on existing projects_
@@ -81,9 +82,7 @@ DevKit is open source collection of frontend project made with HTML, CSS, Javasc
     <td><img src="https://github.com/anjali1102/Hacktober2022/blob/master/Project%20Screenshots/quote-generator.png" width=260 height=470></td>   
     <td><img src="Project Screenshots/random_pass.png" width=260 height=470></td>
   </tr>
-  <tr>
-    <td>Tesla Clone</td>
-    <td>Simple Login-register</td>
+  <tr>    <td>Tesla Clone</td>    <td>Simple Login-register</td>
     <td>Wikipedia Viewer</td>
       
   </tr>
@@ -114,3 +113,5 @@ DevKit is open source collection of frontend project made with HTML, CSS, Javasc
     
  
  </table>
+
+
