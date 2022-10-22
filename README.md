@@ -109,6 +109,9 @@ DevKit is open source collection of frontend project made with HTML, CSS, Javasc
   </tr>
    <tr>
    <td><img src="https://raw.githubusercontent.com/dellucifer/Hacktober2022/master/Starbucks_Clone/img/screen_shot.png" width=270 height=480></td>  
+   <td> <img src="https://user-images.githubusercontent.com/84630728/197352709-0b4d0f93-15c5-4686-a81d-16e25478edfa.png" width=540 height=480> </td> 
+   
+
   </tr>
     
  

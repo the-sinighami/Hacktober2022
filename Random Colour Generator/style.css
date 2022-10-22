@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Lato';
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-container {
+  background-color: teal;
+  width: 325px;
+  height: 175px;
+  color: #fff;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
