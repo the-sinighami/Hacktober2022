@@ -1,0 +1,40 @@
+Bootstrap Containers
+    -Important and basic layout element in Bootstrap
+    -There 2 types of Containers
+        <div class="container" ></div>//fixed width
+        <div class="container-fluid" ></div>//100% of the width of the screen size
+    -Why use fixed layout at all??
+        -Desktop/screen
+            -Fixed width
+        -there are use cases where you might want to have a fixed width-fluis?
+        -login screen
+            -username/password
+                -100%
+            -fixed width and adapt to screen resolution
+        -static website
+            -Real estate company
+            -Restaurant
+            -Small Medium scale website
+
+        -
+    -Fluid design
+        -always about percentage design
+            -40% sidebar
+            -60% main content
+        -always occupy 100% width of the device screen
+            -mobile
+            -ipad
+            -Desktop
+            -large screens
+    -Bootstrap Grid
+        -design layout,templates of the websites
+        -Bootstrap grid allows upto 12 columns in a row
+        -Grid -> it consists of Row and columns
+            -in one row we can have upto max 12 columns using Bootstrap
+        -Divide the row into column to achieve your layout design
+        -Bootstrap Grid supports various screen resolutions
+            -xs-Extra Small
+            -sm-mobile/ipad
+            -md-ipad/Desktop
+            -lg
+            -xm->Extra Large
