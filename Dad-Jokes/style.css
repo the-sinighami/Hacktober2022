@@ -1,20 +1,50 @@
 body {
-    width: 300px;
-    height: 300px;
-    background: #8360c3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+.container {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+}
+.title {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(214, 206, 223),
+    rgb(32, 37, 41),
+    rgb(189, 126, 10)
+  );
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 p {
-    display: inner-flex;
-    margin: auto 10px;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    border-radius: 6px;
-    border: 1px solid lightblue;
-    padding: 10px;
+  display: inner-flex;
+  margin: auto 10px;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  border: 1px solid lightblue;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(196, 209, 11, 0.2),
+    0 6px 20px 0 rgba(10, 173, 24, 0.19);
+  text-align: center;
 }
