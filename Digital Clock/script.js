@@ -8,29 +8,19 @@ var date = setInterval(function time() {
   var date_now = new Date();
   var dateformmat = new Intl.DateTimeFormat("pt-BR").format(date_now);
   var dateF = dateformmat.split("/");
-  var d = ("00" + dateF[0]).slice(-2);
-  var m = ("00" + dateF[1]).slice(-2);
-  var y = dateF[2];
-  day.textContent = d;
-  month.textContent = m;
-  year.textContent = y;
+  var dd = ("00" + dateF[0]).slice(-2);
+  var mm = ("00" + dateF[1]).slice(-2);
+  var yy = dateF[2];
+  day.textContent = dd;
+  month.textContent = mm;
+  year.textContent = yy;
 }, 1000);
 
 var clock = setInterval(function time() {
   var date_now = new Date();
-  var hr = date_now.getHours();
-  var min = date_now.getMinutes();
-  var sec = date_now.getSeconds();
-
-  if (hr < 10) {
-    hr = "0" + hr;
-  }
-  if (min < 10) {
-    min = "0" + min;
-  }
-  if (sec < 10) {
-    sec = "0" + sec;
-  }
+  var hr = ("00" + date_now.getHours()).slice(-2);
+  var min = ("00" + date_now.getMinutes()).slice(-2);
+  var sec = ("00" + date_now.getSeconds()).slice(-2);
 
   hour.textContent = hr;
   minute.textContent = min;
